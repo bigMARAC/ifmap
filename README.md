@@ -9,6 +9,16 @@ npm install
 
 ## Configuração
 
+Para criar o banco, use:
+```hash
+npx sequelize db:create
+```
+
+Para criar as migrates, use:
+```hash
+npx sequelize db:migrate
+```
+
 Não esqueça de criar um arquivo em `src/config/` chamado `db.js` seguindo o exemplo de `db-example.js`.
 
 ## Inicialização
@@ -19,7 +29,7 @@ npm run serve
 
 ## Requisitos
 - [Node](https://nodejs.org/en/download/)
-- [MySQL](https://dev.mysql.com/downloads/mysql/)
+- [MySQL](https://dev.mysql.com/downloads/windows/installer/8.0.html)
 
 
 ## Autor
