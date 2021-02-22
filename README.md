@@ -9,6 +9,8 @@ npm install
 
 ## Configuração
 
+Primeiro, crie um arquivo em `src/config/` chamado `db.js`, seguindo o exemplo de `db-example.js`.
+
 Para criar o banco, use:
 ```hash
 npx sequelize db:create
@@ -18,8 +20,6 @@ Para criar as migrates, use:
 ```hash
 npx sequelize db:migrate
 ```
-
-Não esqueça de criar um arquivo em `src/config/` chamado `db.js` seguindo o exemplo de `db-example.js`.
 
 ## Inicialização
 Para inicializar o projeto, use:
